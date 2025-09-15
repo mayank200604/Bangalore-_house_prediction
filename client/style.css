@@ -1,0 +1,65 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+  margin: 10px 0 5px;
+  display: block;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.radio-group {
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#result {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+}

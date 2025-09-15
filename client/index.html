@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bangalore House Price Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h2>House Price Predictor</h2>
+
+    <label for="sqft">Total Square Feet:</label>
+    <input type="text" id="sqft" placeholder="Enter square feet" />
+
+    <label>BHK:</label>
+    <div class="radio-group" id="bhk-group">
+      <label><input type="radio" name="bhk" value="1"> 1</label>
+      <label><input type="radio" name="bhk" value="2"> 2</label>
+      <label><input type="radio" name="bhk" value="3"> 3</label>
+      <label><input type="radio" name="bhk" value="4"> 4</label>
+      <label><input type="radio" name="bhk" value="5"> 5</label>
+
+    </div>
+
+    <label>Bathrooms:</label>
+    <div class="radio-group" id="bath-group">
+      <label><input type="radio" name="bath" value="1"> 1</label>
+      <label><input type="radio" name="bath" value="2"> 2</label>
+      <label><input type="radio" name="bath" value="3"> 3</label>
+      <label><input type="radio" name="bath" value="4"> 4</label>
+      <label><input type="radio" name="bath" value="5"> 5</label>
+
+    </div>
+
+    <label for="location">Location:</label>
+    <select id="location">
+     <option disabled selected>Loading locations...</option>
+    </select>
+
+    <button id="estimate-btn">Estimated Price</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
