@@ -13,7 +13,7 @@ from sklearn.pipeline import Pipeline
 import pickle
 import json
 
-df= pd.read_csv('model/Bengaluru_House_Data.csv')
+df= pd.read_csv('Bengaluru_House_Data.csv')
 
 # Fixing size.
 def convert_BHK(x):

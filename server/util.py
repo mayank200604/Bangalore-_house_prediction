@@ -7,8 +7,8 @@ import numpy as np
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Paths to model files (relative to server/)
-MODEL_PATH = os.path.join(BASE_DIR, '../model/bangalore_home_prediction_model.pickle')
-FEATURES_PATH = os.path.join(BASE_DIR, '../model/model_features.json')
+MODEL_PATH = os.path.join(BASE_DIR, 'bangalore_home_prediction_model.pickle')
+FEATURES_PATH = os.path.join(BASE_DIR, 'model_features.json')
 
 # Load model
 with open(MODEL_PATH, 'rb') as f:
